@@ -1,0 +1,17 @@
+{
+  "name": "vassapp",
+  "version": "1.0.0",
+  "description": "video and screen sharing app",
+  "main": "server.js",
+  "scripts": {
+    "start": "PROD=true node server.js",
+    "postinstall": "cd ./client && yarn"
+  },
+  "author": "ShivangMitra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
+  }
+}
